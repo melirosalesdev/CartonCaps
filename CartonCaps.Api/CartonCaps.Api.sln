@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartonCaps.Api", "CartonCaps.Api\CartonCaps.Api.csproj", "{52564F83-8CEA-45B6-BF75-82A43C11489B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartonCaps.Test", "CartonCaps.Test\CartonCaps.Test.csproj", "{2739CF3C-ED24-496C-99F2-A803409CDEF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52564F83-8CEA-45B6-BF75-82A43C11489B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52564F83-8CEA-45B6-BF75-82A43C11489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52564F83-8CEA-45B6-BF75-82A43C11489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52564F83-8CEA-45B6-BF75-82A43C11489B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2739CF3C-ED24-496C-99F2-A803409CDEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2739CF3C-ED24-496C-99F2-A803409CDEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2739CF3C-ED24-496C-99F2-A803409CDEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2739CF3C-ED24-496C-99F2-A803409CDEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17DE73C5-F56E-42F7-AA19-E5F7D3910838}
+	EndGlobalSection
+EndGlobal

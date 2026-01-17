@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Maria",
+      "lastName": "Gomez",
+      "email": "maria.gomez@email.com",
+      "referred": false,
+      "birthday": "1990-04-12",
+      "zipCode": "90210"
+    },
+    {
+      "id": "user_002",
+      "name": "Juan",
+      "lastName": "Perez",
+      "email": "juan.perez@email.com",
+      "referred": true,
+      "birthday": "1995-08-30",
+      "zipCode": "10001"
+    },
+    {
+      "id": "user_003",
+      "name": "Ana",
+      "lastName": "Lopez",
+      "email": "ana.lopez@email.com",
+      "referred": false,
+      "birthday": "1988-02-21",
+      "zipCode": "30301"
+    },
+    {
+      "id": "user_004",
+      "name": "Carlos",
+      "lastName": "Martinez",
+      "email": "carlos.m@email.com",
+      "referred": true,
+      "birthday": "1992-11-05",
+      "zipCode": "60601"
+    },
+    {
+      "id": "user_005",
+      "name": "Lucia",
+      "lastName": "Fernandez",
+      "email": "lucia.f@email.com",
+      "referred": false,
+      "birthday": "1985-07-18",
+      "zipCode": "73301"
+    },
+    {
+      "id": "user_006",
+      "name": "Pedro",
+      "lastName": "Ramirez",
+      "email": "pedro.r@email.com",
+      "referred": true,
+      "birthday": "1998-01-09",
+      "zipCode": "94105"
+    }
+  ],
+
+  "referrals": [
+    {
+      "referralId": 1,
+      "code": "REF10001",
+      "userId": "user_001",
+      "status": "pending",
+      "expiration": "2026-03-15T00:00:00Z",
+      "redeemDate": null,
+      "referredUserId": null
+    },
+    {
+      "referralId": 2,
+      "code": "REF10002",
+      "userId": "user_001",
+      "status": "redeemed",
+      "expiration": "2026-02-01T00:00:00Z",
+      "redeemDate": "2026-01-10T14:30:00Z",
+      "referredUserId": "user_002"
+    },
+    {
+      "referralId": 3,
+      "code": "REF10003",
+      "userId": "user_003",
+      "status": "expired",
+      "expiration": "2025-12-01T00:00:00Z",
+      "redeemDate": null,
+      "referredUserId": null
+    },
+    {
+      "referralId": 4,
+      "code": "REF10004",
+      "userId": "user_003",
+      "status": "redeemed",
+      "expiration": "2026-01-20T00:00:00Z",
+      "redeemDate": "2026-01-05T09:15:00Z",
+      "referredUserId": "user_004"
+    },
+    {
+      "referralId": 5,
+      "code": "REF10005",
+      "userId": "user_005",
+      "status": "pending",
+      "expiration": "2026-04-01T00:00:00Z",
+      "redeemDate": null,
+      "referredUserId": null
+    },
+    {
+      "referralId": 6,
+      "code": "REF10006",
+      "userId": "user_006",
+      "status": "redeemed",
+      "expiration": "2026-02-28T00:00:00Z",
+      "redeemDate": "2026-02-10T18:45:00Z",
+      "referredUserId": "user_005"
+    }
+  ]
+}
